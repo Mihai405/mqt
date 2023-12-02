@@ -1,0 +1,2 @@
+Creare Producer Kafka din consola (terminal).
+/usr/bin/kafka-console-producer --bootstrap-server kafka:9092 --topic topic1
