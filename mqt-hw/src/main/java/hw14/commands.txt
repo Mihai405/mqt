@@ -1,0 +1,6 @@
+Create avro message:
+kafka-avro-console-producer --bootstrap-server kafka:19092 --topic topic1  --property schema.registry.url=http://schema-registry:8081 --property value.schema="{\"type\":\"record\",\"name\":\"emag_orders\",\"fields\":[{\"name\":\"comanda\",\"type\":\"string\"},{\"name\":\"client\",\"type\":\"string\"},{\"name\":\"numar_produse\",\"type\":\"string\"}]}"
+
+Add new data:
+  { "comanda": 'comanda4', "client": 'client4', "numar_produse": '1' }
+  { "comanda": 'comanda5', "client": 'client5', "numar_produse": '7' }
