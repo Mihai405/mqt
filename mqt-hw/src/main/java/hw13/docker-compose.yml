@@ -153,7 +153,3 @@ services:
       - 8080:8080
     depends_on:
       - postgres
-
-  INSERT INTO emag_orders VALUES ('comanda1', 'client1', '10');
-  INSERT INTO emag_orders VALUES ('comanda2', 'client2', '3');
-  INSERT INTO emag_orders VALUES ('comanda3', 'client3', '4');
