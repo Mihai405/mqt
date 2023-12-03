@@ -1,0 +1,19 @@
+{
+    "namespace": "avro.mqt.streams",
+    "type": "record",
+    "name": "OrderAvro",
+    "fields": [
+        {
+          "name": "comanda",
+          "type": "string"
+        },
+        {
+          "name": "client_id",
+          "type": "string"
+        },
+        {
+          "name": "numar_produse",
+          "type": "string"
+        }
+    ]
+}
